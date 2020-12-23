@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "first_flutter_app_workspace"
-                XCODE_SCHEME: "first_flutter_app_scheme"
+                XCODE_WORKSPACE: "Runner"
+                XCODE_SCHEME: "Runner"
             xcode: latest
             cocoapods: default
         scripts:
